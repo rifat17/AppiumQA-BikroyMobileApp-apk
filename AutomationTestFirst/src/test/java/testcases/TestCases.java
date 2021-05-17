@@ -137,7 +137,7 @@ public class TestCases extends BaseTestCase {
 		informationPO.setCurrentJob(PropertyUtils.getProperty("profile2.current.job"));
 		waitUtils.staticWait(STATIC_WAIT * 2);
 //		((AndroidDriver) driver).findElementByAndroidUIAutomator("text(\"Engineer\")").click();
-		informationPO.setTotalYrsOfWorkExp("2");
+		informationPO.setTotalYrsOfWorkExp(PropertyUtils.getProperty("profile2.total.years.of.work.exp"));
 		waitUtils.staticWait(STATIC_WAIT * 5);
 		informationPO.tapOnContinue();
 		waitUtils.staticWait(STATIC_WAIT * 3);
