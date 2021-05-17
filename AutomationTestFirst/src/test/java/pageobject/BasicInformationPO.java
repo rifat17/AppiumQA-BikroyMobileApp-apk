@@ -292,11 +292,12 @@ public class BasicInformationPO extends BasePO {
 
 	}
 
+	// TODO: fix bug, could not detect popup window, tried uiautomator,appium inspect but both failed.
 	public void setCurrentJob(String job) {
 
 		System.out.println(currentJob.getText());
 
-		String jobPrefix = (String) job.substring(0, job.length() - 2);
+//		String jobPrefix = (String) job.substring(0, job.length() - 2);
 		currentJob.clear();
 		currentJob.click();
 		currentJob.sendKeys(job);
@@ -307,7 +308,7 @@ public class BasicInformationPO extends BasePO {
 
 	public void setTotalYrsOfWorkExp(String years) {
 		totalYrsOfWorkExp.clear();
-		totalYrsOfWorkExp.sendKeys("2");
+		totalYrsOfWorkExp.sendKeys(years);
 	}
 
 	public void tapOnContinue() {

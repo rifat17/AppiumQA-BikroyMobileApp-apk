@@ -83,7 +83,7 @@ public class AdDetailPO extends BasePO {
 					}
 				}
 			} catch (Exception e) {
-				e.printStackTrace();
+				// e.printStackTrace();
 //				throw new NoSuchElementException("Error in findLowestPriceAd()");
 			}
 		}
