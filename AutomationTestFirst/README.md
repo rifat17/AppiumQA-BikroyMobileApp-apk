@@ -11,9 +11,9 @@ This would precisely explain how to get started with Android App testing. [write
 ## Steps:
  * **Appium Set up** - Before running the project you need to [download](https://appium.io/) and install Appium. Once this this done, do the android SDK set up as mentioned below.
  	
- 		* [Install java](https://www.java.com/en/download/help/mac_10_10.xml)
- 		* [Install jdk & jre](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
- 		* [Install Appium Studio](https://experitest.com/mobile-test-automation/appium-studio/)
+ 	* [Install java](https://www.java.com/en/download/help/mac_10_10.xml)
+ 	* [Install jdk & jre](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
+ 	* [Install Appium Studio](https://experitest.com/mobile-test-automation/appium-studio/)
  
 
  * **Android SDK Set up** - Download Android SDK, set up the path appropriately. Create virtual devices. Once the virtual devices are created, launch Appium and start the emulator accordingly.
